@@ -46,7 +46,7 @@ section#drinks {
 /* added section#blog for blog */
 section#main, section#blog {
   display: table-cell;
-  background:       #efe5d0 url(images/net_back2.gif) top left;
+  background:       #efe5d0 url(images/net_back0914.gif) top left;
   font-size:        105%;
   padding:          15px;
   vertical-align: top;
@@ -54,7 +54,7 @@ section#main, section#blog {
 
 section#home {
   display: table-cell;
-  background:       #efe5d0 url(images/net_back2.gif) top left;
+  background:       #efe5d0 url(images/net_back0914.gif) top left;
   font-size:        150%;
   padding:          30px;
   vertical-align: top;
@@ -180,7 +180,16 @@ th {
   font-size:        60%;
 }
 
-section#main a:link {color: #007e7e;}section#main a:visited {color: green;}section#main a:hover {background: #f88396;color: #0d5353;}
+section#main a:link {
+color: #007e7e;
+}
+section#main a:visited {
+color: green;
+}
+section#main a:hover {
+background: #f88396;
+color: #0d5353;
+}
 
 section#drinks nav {
     background-color: #efe5d0;
