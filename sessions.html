@@ -27,6 +27,7 @@
 		<h2>DATES</h2>
 	<nav>
 	<ul>
+		<li><a href="#211122"><time datetime="2021-11-22">11/22/2021</time></a></li>
 		<li><a href="#211108"><time datetime="2021-11-08">11/8/2021</time></a></li>
 		<li><a href="#211014"><time datetime="2021-10-14">10/14/2021</time></a></li>
 		<li><a href="#210927"><time datetime="2021-09-27">9/27/2021</time></a></li>
@@ -55,9 +56,9 @@
 
       <tr class="cellcolor">
         <td width=35%>
-	<span class="name">Time</span>: Monday, Nov. 22, 2021, 6:30 pm <br>
+	<span class="name">Time</span>: Thursday, Dec. 9, 2021, 6:00 pm <br>
 
-	<span class="name">location</span>: S605 & Online via Zoom
+	<span class="name">location</span>: S605/S727 & Online via Zoom
             
         </td>
         <td class="left" width=65%>
@@ -73,12 +74,28 @@
 
       	<h2>PAST EVENTS</h2>
 	
+	<article id="211122">
+	<header>
+		<h3>(Journal club) AI Poincaré: Machine Learning Conservation Laws from Trajectories</h3>
+		<time datetime="2021-11-22">11/22/2021</time>
+	</header>
+	<p>
+		<span class='name'>Speaker</span>: Jiani Chu (Tsinghua) and Richard Long (MU-NAOC).<br>
+		<span class="name">Abstract</span>:We present AI Poincaré, a machine learning algorithm for auto-discovering conserved quantities using trajectory data from unknown dynamical systems. We test it on five Hamiltonian systems, including the gravitational 3-body problem, and find that it discovers not only all exactly conserved quantities, but also periodic orbits, phase transitions and breakdown timescales for approximate conservation laws.
+		<a href="https://cloud.tsinghua.edu.cn/f/c9af7a10cf984af3b998/?dl=1">slides</a><br>
+		<a href="https://cloud.tsinghua.edu.cn/f/c9af7a10cf984af3b998/?dl=1">video</a><br>
+		<a href="https://arxiv.org/abs/2011.04698">arxiv</a>
+	</p>
+
+	</article>
+		
 	<article id="211108">
 	<header>
-		<h3>Real-time detection of anomalies in large-scale transient surveys</h3>
+		<h3>(Journal club) Real-time detection of anomalies in large-scale transient surveys</h3>
 		<time datetime="2021-11-08">11/8/2021</time>
 	</header>
 	<p>
+		<span class='name'>Speaker</span>: Xiaosheng Zhao (Tsinghua).<br>
 		<span class="name">Abstract</span>:New time-domain surveys, such as the Rubin Observatory Legacy Survey of Space and Time (LSST), will observe millions of transient alerts each night, making standard approaches of visually identifying new and interesting transients infeasible. We present two novel methods of automatically detecting anomalous transient light curves in real-time. Both methods are based on the simple idea that if the light curves from a known population of transients can be accurately modelled, any deviations from model predictions are likely anomalies. The first modelling approach is a probabilistic neural network built using Temporal Convolutional Networks (TCNs) and the second is an interpretable Bayesian parametric model of a transient. We demonstrate our methods' ability to provide anomaly scores as a function of time on light curves from the Zwicky Transient Facility. We show that the flexibility of neural networks, the attribute that makes them such a powerful tool for many regression tasks, is what makes them less suitable for anomaly detection when compared with our parametric model. The parametric model is able to identify anomalies with respect to common supernova classes with low false anomaly rates and high true anomaly rates achieving Area Under the Receive Operating Characteristic (ROC) Curve (AUC) scores above 0.8 for most rare classes such as kilonovae, tidal disruption events, intermediate luminosity transients, and pair-instability supernovae. Our ability to identify anomalies improves over the lifetime of the light curves. Our framework, used in conjunction with transient classifiers, will enable fast and prioritised follow-up of unusual transients from new large-scale surveys.<br>
 		<a href="https://cloud.tsinghua.edu.cn/f/c9af7a10cf984af3b998/?dl=1">slides</a><br>
 		<a href="https://arxiv.org/abs/2111.00036">arxiv</a>
@@ -163,11 +180,12 @@
 
 	<article id="210426">
 	<header>
-		<h3>Capturing the physics of MaNGA galaxies with self-supervised Machine Learning</h3>
+		<h3>(Journal club) Capturing the physics of MaNGA galaxies with self-supervised Machine Learning</h3>
 		<time datetime="2021-04-26">4/26/2021</time>
 	</header>
 	<p>
 		<span class='name'>Speaker</span>: Dandan Xu (Tsinghua).<br>
+		<span class="name">Abstract</span>: As available data sets grow in size and complexity, advanced visualization tools enabling their exploration and analysis become more important. In modern astronomy, integral field spectroscopic galaxy surveys are a clear example of increasing dimensionality and complexity of datasets, which challenge the traditional methods used to extract the physical information they contain. We present the use of a novel self-supervised Machine Learning method to visualize the multi-dimensional information on stellar population and kinematics in the MaNGA survey in a two dimensional plane. Our framework is insensitive to non-physical properties such as the size of integral field unit (IFU) and is therefore able to order galaxies according to their resolved physical properties. Using the extracted representations, we study how galaxies distribute based on their resolved and global physical properties. We show that even when using exclusively information about the internal structure, galaxies naturally cluster into two well-known categories from a purely data driven perspective: rotating main-sequence disks and massive slow rotators, hence confirming distinct assembly channels. Low-mass rotation-dominated quenched galaxies appear only as a third cluster if information about the integrated physical properties is preserved, suggesting a mixture of assembly processes for these galaxies without any particular signature in their internal kinematics that distinguishes them from the two main groups. The framework for data exploration is publicly released with this publication, ready to be used with the MaNGA or other integral field data sets.
 		<a href="https://arxiv.org/pdf/2104.08292.pdf">arxiv</a>
 	</p>
 
