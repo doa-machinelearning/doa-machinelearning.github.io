@@ -1,9 +1,6 @@
 body { 
   background-color: #b5a789;
-  background:       #efe5d0 url(images/FRN-YldWQAATE5z.jpeg);
-  background-repeat: no-repeat;
-  object-fit: cover;
-  background-size: cover;
+  background:       #efe5d0 url(images/FS6jLVlWAAIYhlg.jpeg) top left;
   font-family:      Georgia, "Times New Roman", Times, serif;
   font-size:        small;
   margin:           0px;
@@ -21,9 +18,7 @@ body {
 
 header.top {
   /*background-color: #675c47;*/
-  background-color: #1f1d1d;
-  background:       #fbfbfa url(images/OIP-C.jpeg) right;
-  background-repeat: no-repeat;
+  background-color: #675c47;
   margin: 0px 10px 0px 10px;
   height:           108px;
 }
